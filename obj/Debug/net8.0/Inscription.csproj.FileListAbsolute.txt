@@ -1,0 +1,15 @@
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\bin\Debug\net8.0\Inscription.exe
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\bin\Debug\net8.0\Inscription.deps.json
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\bin\Debug\net8.0\Inscription.runtimeconfig.json
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\bin\Debug\net8.0\Inscription.dll
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\bin\Debug\net8.0\Inscription.pdb
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.AssemblyInfoInputs.cache
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.AssemblyInfo.cs
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.csproj.CoreCompileInputs.cache
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.sourcelink.json
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.dll
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\refint\Inscription.dll
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.pdb
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\Inscription.genruntimeconfig.cache
+C:\Users\anouk\OneDrive\Bureaublad\fun\Inscryption\obj\Debug\net8.0\ref\Inscription.dll

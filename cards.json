@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Name": "Adder",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "2 blood",
+        "Tribe": "Reptile"
+    },
+    {
+        "Id": 2,
+        "Name": "Alpha",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "4 bones",
+        "Tribe": "Canine"
+    },
+    {
+        "Id": 3,
+        "Name": "Amalgam",
+        "Power": 3,
+        "Health": 3,
+        "Cost": "2 blood",
+        "Tribe": "Avian, Canine, Hooved, Reptile, Insect, Squirrel"
+    }
+]
