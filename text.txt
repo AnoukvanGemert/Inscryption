@@ -1,0 +1,7 @@
+get 5 random cards
+
+
+cpu cards
+health min
+ask how many rounds they wanna play
+-------------------------------------------

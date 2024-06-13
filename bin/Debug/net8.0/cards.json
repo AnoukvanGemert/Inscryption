@@ -1,26 +1,350 @@
 [
     {
-        "Id": 1,
         "Name": "Adder",
         "Power": 1,
         "Health": 1,
-        "Cost": "2 blood",
-        "Tribe": "Reptile"
+        "Cost": "2 blood"
     },
     {
-        "Id": 2,
         "Name": "Alpha",
         "Power": 1,
         "Health": 2,
-        "Cost": "4 bones",
-        "Tribe": "Canine"
+        "Cost": "4 bones"
     },
     {
-        "Id": 3,
         "Name": "Amalgam",
         "Power": 3,
         "Health": 3,
-        "Cost": "2 blood",
-        "Tribe": "Avian, Canine, Hooved, Reptile, Insect, Squirrel"
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Worker Ant",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Ant Queen",
+        "Power": 1,
+        "Health": 3,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Bat",
+        "Power": 2,
+        "Health": 1,
+        "Cost": "4 Bones"
+    },
+    {
+        "Name": "Beaver",
+        "Power": 1,
+        "Health": 4,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Bee",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "Free"
+    },
+    {
+        "Name": "Beehive",
+        "Power": 0,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Bloodhound",
+        "Power": 2,
+        "Health": 3,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Bullfrog",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Caged Wolf",
+        "Power": 0,
+        "Health": 6,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Cat",
+        "Power": 0,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Undead Cat",
+        "Power": 3,
+        "Health": 6,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Cockroach",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "4 Bones"
+    },
+    {
+        "Name": "Coyote",
+        "Power": 2,
+        "Health": 1,
+        "Cost": "4 bones"
+    },
+    {
+        "Name": "The Daus",
+        "Power": 2,
+        "Health": 2,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Elk",
+        "Power": 2,
+        "Health": 4,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Elk Fawn",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Fiel Mice",
+        "Power": 2,
+        "Health": 2,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Geck",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "Free"
+    },
+    {
+        "Name": "Black Goat",
+        "Power": 0,
+        "Health": 0,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Grizzly",
+        "Power": 4,
+        "Health": 6,
+        "Cost": "3 blood"
+    },
+    {
+        "Name": "child 13",
+        "Power": 0,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Kingfisher",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Corpse Maggots",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "5 Bones"
+    },
+    {
+        "Name": "Magpie",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Mantis",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Mantis God",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Mole",
+        "Power": 0,
+        "Health": 4,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Mole man",
+        "Power": 0,
+        "Health": 6,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Moose Buck",
+        "Power": 3,
+        "Health": 7,
+        "Cost": "3 blood"
+    },
+    {
+        "Name": "Strange Larva",
+        "Power": 0,
+        "Health": 3,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Strange pupa",
+        "Power": 0,
+        "Health": 3,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Opossum",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "2 Bones"
+    },
+    {
+        "Name": "River Otter",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Ouroboros",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Pack Rat",
+        "Power": 2,
+        "Health": 2,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Porcupine",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Pronghorn",
+        "Power": 1,
+        "Health": 3,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Rat King",
+        "Power": 2,
+        "Health": 1,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Rattler",
+        "Power": 3,
+        "Health": 1,
+        "Cost": "6 Bones"
+    },
+    {
+        "Name": "Raven",
+        "Power": 2,
+        "Health": 3,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Raven Egg",
+        "Power": 0,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Great White",
+        "Power": 4,
+        "Health": 2,
+        "Cost": "3 blood"
+    },
+    {
+        "Name": "Skink",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Skunk",
+        "Power": 0,
+        "Health": 3,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "River Snapper",
+        "Power": 1,
+        "Health": 6,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Long Elk",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "4 Bones"
+    },
+    {
+        "Name": "Sparrow",
+        "Power": 1,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "squirell",
+        "Power": 0,
+        "Health": 1,
+        "Cost": "Free"
+    },
+    {
+        "Name": "Stoat",
+        "Power": 1,
+        "Health": 3,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Urayuli",
+        "Power": 7,
+        "Health": 7,
+        "Cost": "4 blood"
+    },
+    {
+        "Name": "Turkey Vulture",
+        "Power": 3,
+        "Health": 3,
+        "Cost": "8 Bones"
+    },
+    {
+        "Name": "Warren",
+        "Power": 0,
+        "Health": 2,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Wolf",
+        "Power": 3,
+        "Health": 2,
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Wolf Cub",
+        "Power": 1,
+        "Health": 1,
+        "Cost": "1 blood"
+    },
+    {
+        "Name": "Ring Worm",
+        "Power": 0,
+        "Health": 1,
+        "Cost": "1 blood"
     }
 ]

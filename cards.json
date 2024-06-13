@@ -1,26 +1,26 @@
 [
     {
-        "Id": 1,
         "Name": "Adder",
         "Power": 1,
         "Health": 1,
-        "Cost": "2 blood",
-        "Tribe": "Reptile"
+        "Cost": "2 blood"
     },
     {
-        "Id": 2,
         "Name": "Alpha",
         "Power": 1,
         "Health": 2,
-        "Cost": "4 bones",
-        "Tribe": "Canine"
+        "Cost": "4 bones"
     },
     {
-        "Id": 3,
         "Name": "Amalgam",
         "Power": 3,
         "Health": 3,
-        "Cost": "2 blood",
-        "Tribe": "Avian, Canine, Hooved, Reptile, Insect, Squirrel"
+        "Cost": "2 blood"
+    },
+    {
+        "Name": "Worker Ant",
+        "Power": 0,
+        "Health": 2,
+        "Cost": "1 blood"
     }
 ]

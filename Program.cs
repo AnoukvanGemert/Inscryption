@@ -20,18 +20,46 @@ namespace showingCards
 
                 if (cards != null)
                 {
-                    foreach (Classes.Cards card in cards)
+
+                    Random random = new Random();
+                    List<Cards> selectedCards = cards.OrderBy(x => random.Next()).Take(4).ToList();
+                    int damageW = 0;
+                    int damageL = 0;
+                    int damageTotal = 0;
+
+                    foreach (Cards card in selectedCards)
                     {
-                        Classes.Cards newCards = new Classes.Cards()
+                        card.Introduction();
+                        damageTotal += card.Power;
+
+                        if (card.Power >= 1)
                         {
-                            Id = card.Id,
-                            Name = card.Name,
-                            Power = card.Power,
-                            Health = card.Health,
-                            Cost = card.Cost,
-                            Tribe = card.Tribe,
-                        };
-                        newCards.Introduction();
+                            damageW++;
+                        }
+                        else
+                        {
+                            damageL++;
+                        }
+
+                    }
+                    Random rnd = new Random();
+                    int enemy = rnd.Next(1, 10);
+                    System.Console.WriteLine($"You got {damageTotal} damage points");
+
+                    if (damageTotal > enemy)
+                    {
+                        System.Console.WriteLine($"The enemy got {enemy} damage points");
+                        System.Console.WriteLine("You won this round!");
+                    }
+                    else if (enemy < damageTotal)
+                    {
+                        System.Console.WriteLine($"The enemy got {enemy} damage points");
+                        System.Console.WriteLine("You lost this round you loser");
+                    }
+                    else 
+                    {
+                        System.Console.WriteLine($"The enemy got {enemy} damage points");
+                        System.Console.WriteLine("It's a draw");
                     }
                 }
             }
