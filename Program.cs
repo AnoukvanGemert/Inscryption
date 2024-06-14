@@ -20,45 +20,42 @@ namespace showingCards
 
                 if (cards != null)
                 {
-
                     Random random = new Random();
-                    List<Cards> selectedCards = cards.OrderBy(x => random.Next()).Take(4).ToList();
-                    int damageW = 0;
-                    int damageL = 0;
-                    int damageTotal = 0;
+                    List<Cards> CardsPlayer = cards.OrderBy(x => random.Next()).Take(4).ToList();
 
-                    foreach (Cards card in selectedCards)
+                    int damagePlayer = 0;
+
+                    foreach (Cards card in CardsPlayer)
                     {
-                        card.Introduction();
-                        damageTotal += card.Power;
-
-                        if (card.Power >= 1)
-                        {
-                            damageW++;
-                        }
-                        else
-                        {
-                            damageL++;
-                        }
-
+                        card.IntroductionPlayer();
+                        damagePlayer += card.Power;
                     }
-                    Random rnd = new Random();
-                    int enemy = rnd.Next(1, 10);
-                    System.Console.WriteLine($"You got {damageTotal} damage points");
+                    System.Console.WriteLine("-----------------------------------------");
+                    System.Console.WriteLine($"You got {damagePlayer} damage points\n");
 
-                    if (damageTotal > enemy)
+                    int damageCPU = 0;
+                    List<Cards> CardsCPU = cards.OrderBy(x => random.Next(4)).Take(4).ToList();
+
+                    foreach (Cards card in CardsCPU)
                     {
-                        System.Console.WriteLine($"The enemy got {enemy} damage points");
-                        System.Console.WriteLine("You won this round!");
+                        card.IntroductionCPU();
+                        damageCPU += card.Power;
                     }
-                    else if (enemy < damageTotal)
+                    System.Console.WriteLine("-----------------------------------------");
+                    System.Console.WriteLine($"Cpu got {damageCPU} damage points\n");
+
+                    if (damagePlayer > damageCPU)
                     {
-                        System.Console.WriteLine($"The enemy got {enemy} damage points");
-                        System.Console.WriteLine("You lost this round you loser");
+                        int differencePlayer = damagePlayer - damageCPU;
+                        System.Console.WriteLine($"You won this round with {differencePlayer} points");
                     }
-                    else 
+                    else if (damageCPU > damagePlayer)
                     {
-                        System.Console.WriteLine($"The enemy got {enemy} damage points");
+                        int differenceCpu = damageCPU - damagePlayer;
+                        System.Console.WriteLine($"You lost this round with {differenceCpu} points");
+                    }
+                    else
+                    {
                         System.Console.WriteLine("It's a draw");
                     }
                 }

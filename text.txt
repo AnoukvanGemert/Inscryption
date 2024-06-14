@@ -5,3 +5,4 @@ cpu cards
 health min
 ask how many rounds they wanna play
 -------------------------------------------
+get a squirell or card
