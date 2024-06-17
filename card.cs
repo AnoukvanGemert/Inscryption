@@ -20,10 +20,23 @@ namespace Classes
         }
     }
 
-    public class RandomCard
+    public class GamesResults
     {
-        private static readonly Random rnd = new Random();
-        public int Num { get; }
+        public void GameResult(int gamesWon, int gameLost)
+        {
+            if (gamesWon > gameLost)
+            {
+                System.Console.WriteLine("You won this game");
+            } else if (gamesWon < gameLost)
+            {
+                System.Console.WriteLine("You lost this game");
+            } else 
+            {
+                System.Console.WriteLine("It's a draw");
+            }
+        }
     }
+    
+    
 
 }
